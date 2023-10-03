@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    height: 100vh;
+    margin: 0;
+}
+
+#content {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    place-self: center;
+    border: 2px solid black;
+}
+
+#content .content-title {
+    text-align: center;
+}
+
+#content .content-title h2{
+    font-size: 40px;
+}
+
+#content .content-title h5{
+    font-size: 18px;
+}
+
+#content .content-form{
+    text-align: start;
+}
+
+.content-form label,
+.content-form input[type="text"] {
+    display: block; 
+    margin: 10px auto;
+}
+
+.content-form input[type="submit"] {
+    margin: 15px auto;
+}
+
+.content-form input[type="text"]{
+    width: 100%;
+    padding: 5px 1px;
+}
