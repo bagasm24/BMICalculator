@@ -9,6 +9,7 @@ btnSubmit.addEventListener("click", (event) => {
         let bmi = weight / ((height / 100)**2)
         return bmi
     }
+
     function categoriesBMI(hasIlBMI) {
         if(hasIlBMI < 18.5){
             return "Underweight"
@@ -22,5 +23,5 @@ btnSubmit.addEventListener("click", (event) => {
     }
     let bmiResult = rumusBMI(weight.value, height.value);
     let bmiCategory = categoriesBMI(bmiResult);
-    contentResult.innerHTML = `BMI Anda adalah: ${bmiResult.toFixed(2)} ${bmiCategory}`;
+    contentResult.innerHTML = `Your BMI is ${bmiResult.toFixed(2)} which mean You are ${bmiCategory}`;
 })

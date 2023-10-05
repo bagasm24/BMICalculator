@@ -2,13 +2,17 @@ body{
     display: grid;
     height: 100vh;
     margin: 0;
+
 }
 
 #content {
     width: 50%;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
     place-self: center;
+    border-radius: 20px;
+    color: white;
+    background-color: #285430;
     border: 2px solid black;
 }
 
@@ -36,9 +40,13 @@ body{
 
 .content-form input[type="submit"] {
     margin: 15px auto;
+    padding: 8px 12px;
+    font-weight: bold;
+    color: #285430;
+    border-radius: 15px;
 }
 
 .content-form input[type="text"]{
     width: 100%;
-    padding: 5px 1px;
+    padding: 5px 3px;
 }
